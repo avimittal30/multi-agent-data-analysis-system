@@ -94,6 +94,18 @@ curl -X POST http://localhost:8000/chat \
 open http://localhost:8000/docs
 ```
 
+## Example Output
+
+### System Response
+The agent analyzes your query, generates code, executes it, and returns a natural language answer with the results:
+
+![Answer Screenshot](answer_screenshot.png)
+
+### Validation
+Results verified against Excel pivot table:
+
+![Proof](proof.png)
+
 ## Project structure
 
 ```
